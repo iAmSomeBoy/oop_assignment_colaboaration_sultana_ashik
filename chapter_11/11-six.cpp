@@ -19,10 +19,17 @@ bMoney round(const bMoney& m) {
 int main() {
     bMoney arr[] = {12.20, 45.49, 33.50, 19.75, 100.10, 7.99};
     cout << "Original:\n";
-    for (auto x : arr) x.display();
+    cout << "Original:\n";
+ for (int i = 0; i < 6; i++) {
+    arr[i].display();
+}
 
-    cout << "Rounded:\n";
-    for (auto x : arr) round(x).display();
+cout << "Rounded:\n";
+for (int i = 0; i < 6; i++) {
+    bMoney r = round(arr[i]);
+    r.display();
+}
 
     return 0;
 }
+
