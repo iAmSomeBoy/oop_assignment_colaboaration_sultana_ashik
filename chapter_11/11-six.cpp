@@ -19,7 +19,6 @@ bMoney round(const bMoney& m) {
 int main() {
     bMoney arr[] = {12.20, 45.49, 33.50, 19.75, 100.10, 7.99};
     cout << "Original:\n";
-    cout << "Original:\n";
  for (int i = 0; i < 6; i++) {
     arr[i].display();
 }
@@ -32,4 +31,5 @@ for (int i = 0; i < 6; i++) {
 
     return 0;
 }
+
 
