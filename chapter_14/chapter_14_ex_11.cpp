@@ -39,4 +39,4 @@ int main() {
     catch(const String::Error& e) {
         cerr << "Error: " << e.what() << endl;
     }
-}6
+}
