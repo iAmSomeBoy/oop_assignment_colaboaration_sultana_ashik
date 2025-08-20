@@ -17,4 +17,5 @@ int main() {
               << average(longArr, 5) << std::endl
               << average(doubleArr, 5) << std::endl
               << average(charArr, 5) << std::endl;
+    return 0;
 }
